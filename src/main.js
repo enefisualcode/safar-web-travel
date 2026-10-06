@@ -1,6 +1,6 @@
 import './style.css';
 
-const A = '/assets/';
+const A = `${import.meta.env.BASE_URL}assets/`;
 const icon = (name, alt = '') => `<img class="icon" src="${A}${name}.svg" alt="${alt}">`;
 
 const packages = [
